@@ -1,0 +1,24 @@
+{
+	"script": {
+		"main": "src/js/script.js",
+		"es5": "assets/js/script.js",
+		"es6": "assets/js/script-esm.js",
+		"deps": "src/js/dependencies/**/*.js",
+		"modules": "src/js/modules/**/*.js",
+		"templates": "templates/**/*.js",
+		"output": "assets/js/"
+	},
+	"style": {
+		"main": "src/scss/style.scss",
+		"templates": "templates/**/*.{scss,sass}",
+		"src": "src/**/*.{scss,sass}",
+		"output": "assets/css/"
+	},
+	"markup": {
+		"templates": "templates/**/*.{php,html,twig}"
+	},
+	"server": {
+		"proxy": "http://your-custom-domain.local",
+		"host": "your-custom-domain.local"
+	}
+}

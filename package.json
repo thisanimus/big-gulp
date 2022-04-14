@@ -1,0 +1,49 @@
+{
+	"name": "big-gulp",
+	"version": "1.0.0",
+	"description": "A taskrunner for building websites.",
+	"main": "index.html",
+	"keywords": [
+		"scss",
+		"css",
+		"framework",
+		"design-system",
+		"html",
+		"front-end",
+		"buttons",
+		"colors",
+		"forms",
+		"grid",
+		"mixins",
+		"spacing",
+		"typography",
+		"deepspace"
+	],
+	"scripts": {
+		"gulp": "gulp",
+		"watch": "gulp watch",
+		"build": "gulp build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/core": "latest",
+		"@babel/preset-env": "latest",
+		"@rollup/plugin-babel": "latest",
+		"@rollup/plugin-node-resolve": "latest",
+		"browser-sync": "latest",
+		"gulp": "latest",
+		"gulp-autoprefixer": "latest",
+		"gulp-clean-css": "latest",
+		"gulp-concat": "latest",
+		"gulp-rename": "latest",
+		"gulp-sass": "latest",
+		"gulp-sourcemaps": "latest",
+		"gulp-terser": "latest",
+		"rollup": "latest",
+		"sass": "latest"
+	},
+	"dependencies": {
+		"js-cookie": "latest"
+	}
+}
